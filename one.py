@@ -4,7 +4,7 @@ from calcu import Calculator
 class Container(containers.DeclarativeContainer):
     cal = providers.Singleton(Calculator)
 
-
+#removing blank line
 def main():
     container = Container()
     calc = container.cal()
